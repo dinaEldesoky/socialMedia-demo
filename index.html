@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c22899cfeb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- --------------------------------------------------------------------------------------------------------- -->
+    <!-- start nav-bar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed">
+        <i class="fas fa-home navbar-brand" ></i>
+        <a class="navbar-brand" href="#"> Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <img class="img-fluid rounded-circle" src="img_avatar.png" style="width: 20px;">
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="fas fa-globe-asia nav-link px-3" href="#" style="color: gray;font-size: 20px;"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  fas fa-user px-3" href="#" style="color: gray;font-size: 20px;"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="fas fa-envelope nav-link px-3" href="#" style="color: gray;font-size: 20px;"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="fas fa-bell nav-link pl-3 " href="#" style="color: gray; font-size: 20px;">
+                        <span class="badge badge-pill badge-success" id="spn1" style="vertical-align: top ; font-size: 9px;">4</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- End nav-bar -->
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+    <div class="container-fluid border bg-light ">
+        <div class="row">
+            <!-- start Left side container -->
+            <div class="col-sm-2 col-md-3">
+                <div class="shadow bg-white">
+                    <div class="m-3">
+                        <h4 class="d-flex justify-content-center">My Profile</h4>
+                        <div class="d-flex justify-content-center">
+                            <img src="img_avatar.png" alt="avatar" class="img-fluid rounded-circle " style="width: 100px; height: 100px;">
+                        </div>
+                        <br>
+                        <div class="border border-top-0 border-right-0 border-left-0"  ></div>
+                        <br>
+                        <span class="fas fa-bell nav-link ">
+                            <div class="float-right pl-3">123.street</div>
+                        </span>
+                        <br>
+                        <span class="fas fa-bell nav-link ">
+                            <div class="float-right pl-3">123.street</div>
+                        </span>
+                        <br>
+                        <span class="fas fa-bell nav-link ">
+                            <div class="float-right pl-3">123.street</div>
+                        </span>
+                </div>
+            </div>
+            <div class="shadow bg-secondary text-white">
+                <div class="p-3">
+                    <span class="fas fa-bell nav-link ">
+                        <div class="float-right pl-3 ">123.street</div>
+                    </span>
+                    <br>
+                    <span class="fas fa-bell nav-link ">
+                        <div class="float-right pl-3">123.street</div>
+                    </span>
+                    <br>
+                    <span class="fas fa-bell nav-link ">
+                        <div class="float-right pl-3">123.street</div>
+                    </span>
+                </div>
+        </div>
+    </div>
+            <!-- --- End left side container ----  -->
+<!-- ------------------------------------------------------------------------------------------------------------- -->        
+
+        <!-- start middle side -->
+            <div class="col-sm-8 col-md-7">
+                <div class="shadow bg-white">
+                    <div class="m-3">
+                        <p class="text-secondary">Social media template from w3schools</p>
+                        <div class="col-md-12 border">
+                            <div class="text-secondary">Write what on your mind</div>
+                        </div>
+                         <br>
+                        <span class="badge fas fa-pen mb-2 bg-primary" style="font-size: 15px;">Post</span>
+                    </div>
+                </div>
+                <br>
+                <div class="shadow bg-white">
+                    <div class="media">
+                        <img src="img_avatar.png" alt="avatar" class="img-fluid ml-3 mr-3 mt-3 rounded-circle" style="width: 60px;">
+                        <div class="media-body">
+                            <h5>John deep</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Fuga eius molestias voluptatibus distinctio vero molestiae cumque deleniti quidem.
+                                 Dolores sunt sequi quasi saepe reprehenderit autem voluptates nostrum ratione odio totam.</p>
+                            <img class="img-fluid " src="paris.jpg" style="width:300px; height: 300px;">
+                            <img class="img-fluid mr-5" src="paris.jpg" alt="" style="width:300px; height: 300px;">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="ml-3">
+                        <span class="badge fas fa-pen mb-2 bg-primary" style="font-size: 15px;">Like</span>
+                        <span class="badge fas fa-pen mb-2 bg-primary" style="font-size: 15px;">Comment</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End middle side -->
+
+<!---------------------------------------------------------------------------------------------------------------------------->
+
+            <!-- start right side -->
+            <div class="col-2 d-none d-md-block  bg-light">
+                <div class="shadow bg-white m-3">
+                    <div class="d-flex justify-content-center">
+                        <p class="text-secondary mt-3">Upcoming Events</p>
+                    </div>
+                    <div class="mr-2 ml-2 ">
+                        <img class="img-fluid " src="paris.jpg" style="width: 180px;" >
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <h6>Hong Kong</h6>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <p class="text-secondary" >Friday 19-2020</p>
+                    </div>
+                    <div class="col-md-10 d-flex justify-content-center bg-secondary m-3">
+                        Info
+                    </div>
+                </div>
+            </div>
+            <!-- End right side -->
+            <br>
+            <!-- ---------------------------------------------------------------------------------------- -->
+            <!-- -Footer -->
+            
+        </div>
+    </div>
+</body>
+</html>
